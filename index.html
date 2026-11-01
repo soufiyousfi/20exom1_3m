@@ -505,7 +505,7 @@
     <header>
         <div class="school-title">متوسطة العربي بن مهيدي — الأستاذ: يوسفي السوفي</div>
         <h1>سلسلة 20 تمرينا تفاعليا في الرياضيات</h1>
-        <div class="sub-info">المستوى: السنة الثالثة متوسط (3م) | المقطع الأول: الأعداد النسبية (الضرب والقسمة)</div>
+        <div class="sub-info">المستوى: السنة الثالثة متوسط (3م) | المقطع الأول: العمليات على الأعداد النسبية والكسرية والناطقة (حسب المخطط السنوي 2022)</div>
     </header>
 
     <div class="sticky-bar">
@@ -544,7 +544,7 @@
         const questionEarned = {};
         const questionLocked = {};
 
-        const symbols1AM = ["+", "−", "×", "÷", ",", "(", ")", "/", "⌫"];
+        const symbols1AM = ["+", "−", "×", "÷", ",", "/", "(", ")", "⌫"];
 
         function playTone(type) {
             if (!soundEnabled) return;
@@ -584,7 +584,7 @@
  {
   "id": 1,
   "pts": 1,
-  "title": "التمرين 01: قاعدة الإشارات في الضرب (المورد 1: جداء عددين نسبيين)",
+  "title": "التمرين 01: قاعدة الإشارات في الضرب (المورد 1: العمليات على الأعداد النسبية (الضرب والقسمة))",
   "context": "احسب كل جداء.",
   "questions": [
    {
@@ -654,7 +654,7 @@
  {
   "id": 2,
   "pts": 1,
-  "title": "التمرين 02: جداء أعداد نسبية عشرية (المورد 1: جداء عددين نسبيين)",
+  "title": "التمرين 02: جداء أعداد نسبية عشرية (المورد 1: العمليات على الأعداد النسبية (الضرب والقسمة))",
   "context": "احسب كل جداء.",
   "questions": [
    {
@@ -727,7 +727,7 @@
  {
   "id": 3,
   "pts": 1,
-  "title": "التمرين 03: العامل المجهول (المورد 1: جداء عددين نسبيين)",
+  "title": "التمرين 03: العامل المجهول (المورد 1: العمليات على الأعداد النسبية (الضرب والقسمة))",
   "context": "أكمل بالعدد النسبي المناسب.",
   "questions": [
    {
@@ -799,284 +799,7 @@
  {
   "id": 4,
   "pts": 1,
-  "title": "التمرين 04: الضرب في 0 وفي (−1) (المورد 1: جداء عددين نسبيين)",
-  "context": "احسب.",
-  "questions": [
-   {
-    "text": "1) <span class=\"math\">(−125) × 0</span>",
-    "exact": [
-     "0"
-    ],
-    "partial": [
-     "-125",
-     "-0"
-    ],
-    "h1": "كل عدد مضروب في <span class=\"math\">0</span> يساوي <span class=\"math\">0</span>.",
-    "h2": "لا حاجة للإشارة: <span class=\"math\">0</span> ليس موجبا ولا سالبا.",
-    "steps": [
-     "<span class=\"math\">(−125) × 0 = 0</span>",
-     "النتيجة: <span class=\"math\">0</span>"
-    ],
-    "rubric": [
-     {
-      "step": "تطبيق خاصية الضرب في <span class=\"math\">0</span>",
-      "mark": "0,5"
-     }
-    ],
-    "pts": 0.5,
-    "partialMsg": "الجداء في <span class=\"math\">0</span> يساوي <span class=\"math\">0</span>.",
-    "partialZero": true,
-    "qId": "4-1"
-   },
-   {
-    "text": "2) <span class=\"math\">(−1) × (+17,3)</span>",
-    "exact": [
-     "-17,3"
-    ],
-    "partial": [
-     "17,3"
-    ],
-    "h1": "الضرب في <span class=\"math\">(−1)</span> يعطي معاكس العدد.",
-    "h2": "معاكس <span class=\"math\">17,3</span> هو ...",
-    "steps": [
-     "<span class=\"math\">(−1) × (+17,3)</span>",
-     "مختلفان في الإشارة: الجداء سالب",
-     "<span class=\"math\">1 × 17,3 = 17,3</span>",
-     "النتيجة: <span class=\"math\">(−1) × (+17,3) = −17,3</span>"
-    ],
-    "rubric": [
-     {
-      "step": "تعيين الإشارة",
-      "mark": "0,25"
-     },
-     {
-      "step": "القيمة <span class=\"math\">17,3</span>",
-      "mark": "0,25"
-     }
-    ],
-    "pts": 0.5,
-    "partialMsg": "إشارة الناتج خاطئة.",
-    "partialZero": true,
-    "qId": "4-2"
-   }
-  ]
- },
- {
-  "id": 5,
-  "pts": 1,
-  "title": "التمرين 05: انخفاض درجة الحرارة (المورد 1: جداء عددين نسبيين)",
-  "context": "في ليلة شتوية بباتنة، كانت درجة الحرارة <span class=\"math\">+3 °C</span>، ثم انخفضت بـ <span class=\"math\">2 °C</span> كل ساعة طيلة <span class=\"math\">5</span> ساعات. نعبر عن كل انخفاض بالعدد <span class=\"math\">(−2)</span>.",
-  "questions": [
-   {
-    "text": "1) ما التغير الكلي لدرجة الحرارة خلال <span class=\"math\">5</span> ساعات؟",
-    "exact": [
-     "-10"
-    ],
-    "partial": [
-     "10"
-    ],
-    "h1": "التغير الكلي = عدد الساعات × تغير الساعة الواحدة.",
-    "h2": "احسب <span class=\"math\">5 × (−2)</span>.",
-    "steps": [
-     "<span class=\"math\">5 × (−2)</span>",
-     "مختلفان في الإشارة: الجداء سالب",
-     "<span class=\"math\">5 × 2 = 10</span>",
-     "النتيجة: <span class=\"math\">−10 °C</span>"
-    ],
-    "rubric": [
-     {
-      "step": "العملية <span class=\"math\">5 × (−2)</span>",
-      "mark": "0,25"
-     },
-     {
-      "step": "النتيجة <span class=\"math\">−10</span>",
-      "mark": "0,25"
-     }
-    ],
-    "pts": 0.5,
-    "partialMsg": "الحرارة انخفضت: التغير سالب.",
-    "partialZero": true,
-    "qId": "5-1"
-   },
-   {
-    "text": "2) ما درجة الحرارة بعد <span class=\"math\">5</span> ساعات؟",
-    "exact": [
-     "-7"
-    ],
-    "partial": [
-     "7",
-     "13",
-     "-13"
-    ],
-    "h1": "درجة الحرارة الجديدة = درجة البداية + التغير الكلي.",
-    "h2": "احسب <span class=\"math\">(+3) + (−10)</span>.",
-    "steps": [
-     "<span class=\"math\">(+3) + (−10)</span>",
-     "<span class=\"math\">= −(10 − 3)</span>",
-     "<span class=\"math\">= −7</span>",
-     "النتيجة: <span class=\"math\">−7 °C</span>"
-    ],
-    "rubric": [
-     {
-      "step": "العملية <span class=\"math\">(+3) + (−10)</span>",
-      "mark": "0,25"
-     },
-     {
-      "step": "النتيجة <span class=\"math\">−7 °C</span>",
-      "mark": "0,25"
-     }
-    ],
-    "pts": 0.5,
-    "partialMsg": "اجمع <span class=\"math\">(+3)</span> مع التغير <span class=\"math\">(−10)</span> مع الانتباه للإشارة.",
-    "partialZero": true,
-    "qId": "5-2"
-   }
-  ]
- },
- {
-  "id": 6,
-  "pts": 1,
-  "title": "التمرين 06: جداء عدد صحيح في عدد عشري (المورد 1: جداء عددين نسبيين)",
-  "context": "احسب كل جداء.",
-  "questions": [
-   {
-    "text": "1) <span class=\"math\">(−1,5) × (+6)</span>",
-    "exact": [
-     "-9"
-    ],
-    "partial": [
-     "9"
-    ],
-    "h1": "جداء عددين لهما نفس الإشارة موجب، وجداء عددين مختلفين في الإشارة سالب.",
-    "h2": "الإشارة سالبة، و<span class=\"math\">1,5 × 6 = 9</span>.",
-    "steps": [
-     "<span class=\"math\">(−1,5) × (+6)</span>",
-     "مختلفان في الإشارة: الجداء سالب",
-     "<span class=\"math\">1,5 × 6 = 9</span>",
-     "النتيجة: <span class=\"math\">(−1,5) × (+6) = −9</span>"
-    ],
-    "rubric": [
-     {
-      "step": "تعيين الإشارة",
-      "mark": "0,25"
-     },
-     {
-      "step": "القيمة",
-      "mark": "0,25"
-     }
-    ],
-    "pts": 0.5,
-    "partialMsg": "إشارة الناتج خاطئة.",
-    "partialZero": true,
-    "qId": "6-1"
-   },
-   {
-    "text": "2) <span class=\"math\">(−12) × (−0,25)</span>",
-    "exact": [
-     "3"
-    ],
-    "partial": [
-     "-3"
-    ],
-    "h1": "جداء عددين لهما نفس الإشارة موجب، وجداء عددين مختلفين في الإشارة سالب.",
-    "h2": "الإشارة موجبة، و<span class=\"math\">0,25</span> ربع: <span class=\"math\">12 × 0,25 = 3</span>.",
-    "steps": [
-     "<span class=\"math\">(−12) × (−0,25)</span>",
-     "نفس الإشارة: الجداء موجب",
-     "<span class=\"math\">12 × 0,25 = 3</span>",
-     "النتيجة: <span class=\"math\">(−12) × (−0,25) = 3</span>"
-    ],
-    "rubric": [
-     {
-      "step": "تعيين الإشارة",
-      "mark": "0,25"
-     },
-     {
-      "step": "القيمة",
-      "mark": "0,25"
-     }
-    ],
-    "pts": 0.5,
-    "partialMsg": "إشارة الناتج خاطئة.",
-    "partialZero": true,
-    "qId": "6-2"
-   }
-  ]
- },
- {
-  "id": 7,
-  "pts": 1,
-  "title": "التمرين 07: جداءات أخرى (المورد 1: جداء عددين نسبيين)",
-  "context": "احسب كل جداء.",
-  "questions": [
-   {
-    "text": "1) <span class=\"math\">(−11) × (+11)</span>",
-    "exact": [
-     "-121"
-    ],
-    "partial": [
-     "121"
-    ],
-    "h1": "جداء عددين لهما نفس الإشارة موجب، وجداء عددين مختلفين في الإشارة سالب.",
-    "h2": "الإشارة سالبة، و<span class=\"math\">11 × 11 = 121</span>.",
-    "steps": [
-     "<span class=\"math\">(−11) × (+11)</span>",
-     "مختلفان في الإشارة: الجداء سالب",
-     "<span class=\"math\">11 × 11 = 121</span>",
-     "النتيجة: <span class=\"math\">(−11) × (+11) = −121</span>"
-    ],
-    "rubric": [
-     {
-      "step": "تعيين الإشارة",
-      "mark": "0,25"
-     },
-     {
-      "step": "القيمة",
-      "mark": "0,25"
-     }
-    ],
-    "pts": 0.5,
-    "partialMsg": "إشارة الناتج خاطئة.",
-    "partialZero": true,
-    "qId": "7-1"
-   },
-   {
-    "text": "2) <span class=\"math\">(−4,2) × (−10)</span>",
-    "exact": [
-     "42"
-    ],
-    "partial": [
-     "-42"
-    ],
-    "h1": "جداء عددين لهما نفس الإشارة موجب، وجداء عددين مختلفين في الإشارة سالب.",
-    "h2": "الإشارة موجبة، والضرب في <span class=\"math\">10</span> يزيح الفاصلة مرتبة إلى اليمين.",
-    "steps": [
-     "<span class=\"math\">(−4,2) × (−10)</span>",
-     "نفس الإشارة: الجداء موجب",
-     "<span class=\"math\">4,2 × 10 = 42</span>",
-     "النتيجة: <span class=\"math\">(−4,2) × (−10) = 42</span>"
-    ],
-    "rubric": [
-     {
-      "step": "تعيين الإشارة",
-      "mark": "0,25"
-     },
-     {
-      "step": "القيمة",
-      "mark": "0,25"
-     }
-    ],
-    "pts": 0.5,
-    "partialMsg": "إشارة الناتج خاطئة.",
-    "partialZero": true,
-    "qId": "7-2"
-   }
-  ]
- },
- {
-  "id": 8,
-  "pts": 1,
-  "title": "التمرين 08: إشارة جداء عدة أعداد (المورد 2: جداء عدة أعداد نسبية)",
+  "title": "التمرين 04: إشارة جداء عدة أعداد (المورد 1: العمليات على الأعداد النسبية (الضرب والقسمة))",
   "context": "احسب كل جداء.",
   "questions": [
    {
@@ -1108,7 +831,7 @@
     "pts": 0.5,
     "partialMsg": "عدد العوامل السالبة فردي.",
     "partialZero": true,
-    "qId": "8-1"
+    "qId": "4-1"
    },
    {
     "text": "2) <span class=\"math\">(−1) × (+4) × (−2) × (+5)</span>",
@@ -1139,14 +862,14 @@
     "pts": 0.5,
     "partialMsg": "عدد العوامل السالبة زوجي.",
     "partialZero": true,
-    "qId": "8-2"
+    "qId": "4-2"
    }
   ]
  },
  {
-  "id": 9,
+  "id": 5,
   "pts": 1,
-  "title": "التمرين 09: التجميع لتسهيل الحساب (المورد 2: جداء عدة أعداد نسبية)",
+  "title": "التمرين 05: التجميع لتسهيل الحساب (المورد 1: العمليات على الأعداد النسبية (الضرب والقسمة))",
   "context": "احسب بطريقة سهلة (يمكن تغيير ترتيب العوامل).",
   "questions": [
    {
@@ -1179,7 +902,7 @@
     "pts": 0.5,
     "partialMsg": "عدد العوامل السالبة زوجي.",
     "partialZero": true,
-    "qId": "9-1"
+    "qId": "5-1"
    },
    {
     "text": "2) <span class=\"math\">(+0,5) × (−13) × (−2) × (−1)</span>",
@@ -1192,8 +915,8 @@
     "h1": "جمّع <span class=\"math\">(+0,5)</span> و<span class=\"math\">(−2)</span>.",
     "h2": "<span class=\"math\">0,5 × 2 = 1</span>؛ وعدد العوامل السالبة <span class=\"math\">3</span>.",
     "steps": [
-     "<span class=\"math\">(+0,5) × (−2) × (−13) × (−1)</span>",
-     "<span class=\"math\">= (−1) × (−13) × (−1)</span>",
+     "نجمّع: <span class=\"math\">(+0,5) × (−2) = −1</span>",
+     "<span class=\"math\">(−1) × (−13) × (−1)</span>",
      "عدد العوامل السالبة: <span class=\"math\">3</span> ← الجداء سالب",
      "<span class=\"math\">1 × 13 × 1 = 13</span>",
      "النتيجة: <span class=\"math\">−13</span>"
@@ -1211,278 +934,14 @@
     "pts": 0.5,
     "partialMsg": "عدد العوامل السالبة فردي (<span class=\"math\">3</span>).",
     "partialZero": true,
-    "qId": "9-2"
+    "qId": "5-2"
    }
   ]
  },
  {
-  "id": 10,
+  "id": 6,
   "pts": 1,
-  "title": "التمرين 10: عدد العوامل السالبة (المورد 2: جداء عدة أعداد نسبية)",
-  "context": "نعتبر الجداء <span class=\"math\">P = (−1) × (+2) × (−3) × (−4) × (+5)</span>.",
-  "questions": [
-   {
-    "text": "1) كم عاملا سالبا في هذا الجداء؟",
-    "exact": [
-     "3"
-    ],
-    "partial": [],
-    "h1": "العوامل السالبة هي التي أمامها الإشارة <span class=\"math\">−</span>.",
-    "h2": "عدّ: <span class=\"math\">(−1)</span>، <span class=\"math\">(−3)</span>، ...",
-    "steps": [
-     "العوامل السالبة: <span class=\"math\">(−1)</span> و<span class=\"math\">(−3)</span> و<span class=\"math\">(−4)</span>",
-     "النتيجة: <span class=\"math\">3</span> عوامل"
-    ],
-    "rubric": [
-     {
-      "step": "تعيين العوامل السالبة <span class=\"math\">3</span>",
-      "mark": "0,5"
-     }
-    ],
-    "pts": 0.5,
-    "qId": "10-1"
-   },
-   {
-    "text": "2) احسب <span class=\"math\">P</span>.",
-    "exact": [
-     "-120"
-    ],
-    "partial": [
-     "120"
-    ],
-    "h1": "عدد العوامل السالبة فردي، فما إشارة <span class=\"math\">P</span>؟",
-    "h2": "<span class=\"math\">1 × 2 × 3 × 4 × 5 = 120</span>.",
-    "steps": [
-     "عدد العوامل السالبة <span class=\"math\">3</span> (فردي) ← <span class=\"math\">P</span> سالب",
-     "<span class=\"math\">1 × 2 × 3 × 4 × 5 = 120</span>",
-     "النتيجة: <span class=\"math\">P = −120</span>"
-    ],
-    "rubric": [
-     {
-      "step": "الإشارة السالبة",
-      "mark": "0,25"
-     },
-     {
-      "step": "القيمة <span class=\"math\">120</span>",
-      "mark": "0,25"
-     }
-    ],
-    "pts": 0.5,
-    "partialMsg": "عدد العوامل السالبة فردي.",
-    "partialZero": true,
-    "qId": "10-2"
-   }
-  ]
- },
- {
-  "id": 11,
-  "pts": 1,
-  "title": "التمرين 11: جداء فيه صفر وجداء قوى (المورد 2: جداء عدة أعداد نسبية)",
-  "context": "احسب.",
-  "questions": [
-   {
-    "text": "1) <span class=\"math\">(−3,7) × (+12) × 0 × (−8)</span>",
-    "exact": [
-     "0"
-    ],
-    "partial": [],
-    "h1": "هل يوجد عامل معدوم في الجداء؟",
-    "h2": "إذا كان أحد العوامل <span class=\"math\">0</span> فالجداء يساوي <span class=\"math\">0</span>.",
-    "steps": [
-     "أحد العوامل يساوي <span class=\"math\">0</span>",
-     "النتيجة: <span class=\"math\">0</span>"
-    ],
-    "rubric": [
-     {
-      "step": "ملاحظة العامل المعدوم والنتيجة <span class=\"math\">0</span>",
-      "mark": "0,5"
-     }
-    ],
-    "pts": 0.5,
-    "qId": "11-1"
-   },
-   {
-    "text": "2) <span class=\"math\">(−2) × (−2) × (−2) × (−2)</span>",
-    "exact": [
-     "16"
-    ],
-    "partial": [
-     "-16",
-     "-8",
-     "8"
-    ],
-    "h1": "إذا كان عدد العوامل السالبة زوجيا فالجداء موجب، وإذا كان فرديا فالجداء سالب.",
-    "h2": "عدد العوامل السالبة <span class=\"math\">4</span>؛ و<span class=\"math\">2 × 2 × 2 × 2</span>.",
-    "steps": [
-     "عدد العوامل السالبة: <span class=\"math\">4</span> (زوجي) ← الجداء موجب",
-     "<span class=\"math\">2 × 2 × 2 × 2 = 16</span>",
-     "النتيجة: <span class=\"math\">16</span>"
-    ],
-    "rubric": [
-     {
-      "step": "الإشارة الموجبة",
-      "mark": "0,25"
-     },
-     {
-      "step": "القيمة <span class=\"math\">16</span>",
-      "mark": "0,25"
-     }
-    ],
-    "pts": 0.5,
-    "partialMsg": "عدد العوامل <span class=\"math\">4</span> وكلها سالبة.",
-    "partialZero": true,
-    "qId": "11-2"
-   }
-  ]
- },
- {
-  "id": 12,
-  "pts": 1,
-  "title": "التمرين 12: جداءات بأعداد عشرية (المورد 2: جداء عدة أعداد نسبية)",
-  "context": "احسب.",
-  "questions": [
-   {
-    "text": "1) <span class=\"math\">(−3) × (−4) × (+2,5)</span>",
-    "exact": [
-     "30"
-    ],
-    "partial": [
-     "-30"
-    ],
-    "h1": "إذا كان عدد العوامل السالبة زوجيا فالجداء موجب، وإذا كان فرديا فالجداء سالب.",
-    "h2": "عدد العوامل السالبة <span class=\"math\">2</span>؛ و<span class=\"math\">4 × 2,5 = 10</span>.",
-    "steps": [
-     "عدد العوامل السالبة: <span class=\"math\">2</span> ← الجداء موجب",
-     "<span class=\"math\">3 × 4 × 2,5 = 3 × 10</span>",
-     "<span class=\"math\">= 30</span>",
-     "النتيجة: <span class=\"math\">30</span>"
-    ],
-    "rubric": [
-     {
-      "step": "الإشارة",
-      "mark": "0,25"
-     },
-     {
-      "step": "القيمة <span class=\"math\">30</span>",
-      "mark": "0,25"
-     }
-    ],
-    "pts": 0.5,
-    "partialMsg": "عدد العوامل السالبة زوجي.",
-    "partialZero": true,
-    "qId": "12-1"
-   },
-   {
-    "text": "2) <span class=\"math\">(−0,1) × (−0,1) × (−100)</span>",
-    "exact": [
-     "-1"
-    ],
-    "partial": [
-     "1",
-     "-10",
-     "10"
-    ],
-    "h1": "إذا كان عدد العوامل السالبة زوجيا فالجداء موجب، وإذا كان فرديا فالجداء سالب.",
-    "h2": "عدد العوامل السالبة <span class=\"math\">3</span>؛ و<span class=\"math\">0,1 × 0,1 = 0,01</span>.",
-    "steps": [
-     "عدد العوامل السالبة: <span class=\"math\">3</span> ← الجداء سالب",
-     "<span class=\"math\">0,1 × 0,1 = 0,01</span>",
-     "<span class=\"math\">0,01 × 100 = 1</span>",
-     "النتيجة: <span class=\"math\">−1</span>"
-    ],
-    "rubric": [
-     {
-      "step": "الإشارة",
-      "mark": "0,25"
-     },
-     {
-      "step": "القيمة <span class=\"math\">1</span>",
-      "mark": "0,25"
-     }
-    ],
-    "pts": 0.5,
-    "partialMsg": "راجع الإشارة و<span class=\"math\">0,1 × 0,1 = 0,01</span>.",
-    "partialZero": true,
-    "qId": "12-2"
-   }
-  ]
- },
- {
-  "id": 13,
-  "pts": 1,
-  "title": "التمرين 13: أكمل الجداء (المورد 2: جداء عدة أعداد نسبية)",
-  "context": "أكمل بالعدد النسبي المناسب.",
-  "questions": [
-   {
-    "text": "1) <span class=\"math\">(−6) × (+5) × (−2) × ... = −120</span>",
-    "exact": [
-     "-2"
-    ],
-    "partial": [
-     "2"
-    ],
-    "h1": "احسب أولا <span class=\"math\">(−6) × (+5) × (−2)</span>.",
-    "h2": "<span class=\"math\">(−6) × (+5) × (−2) = 60</span>؛ أي عدد يضرب في <span class=\"math\">60</span> ليعطي <span class=\"math\">−120</span>؟",
-    "steps": [
-     "<span class=\"math\">(−6) × (+5) × (−2) = +60</span>",
-     "<span class=\"math\">(+60) × ... = −120</span>",
-     "العامل المجهول سالب و<span class=\"math\">120 ÷ 60 = 2</span>",
-     "النتيجة: <span class=\"math\">−2</span>"
-    ],
-    "rubric": [
-     {
-      "step": "حساب <span class=\"math\">+60</span>",
-      "mark": "0,25"
-     },
-     {
-      "step": "النتيجة <span class=\"math\">−2</span>",
-      "mark": "0,25"
-     }
-    ],
-    "pts": 0.5,
-    "partialMsg": "<span class=\"math\">60 × 2</span> موجب وليس <span class=\"math\">−120</span>.",
-    "partialZero": true,
-    "qId": "13-1"
-   },
-   {
-    "text": "2) ما قيمة جداء <span class=\"math\">7</span> عوامل كلها تساوي <span class=\"math\">(−1)</span>؟",
-    "exact": [
-     "-1"
-    ],
-    "partial": [
-     "1",
-     "-7",
-     "7"
-    ],
-    "h1": "إذا كان عدد العوامل السالبة زوجيا فالجداء موجب، وإذا كان فرديا فالجداء سالب.",
-    "h2": "عدد العوامل السالبة <span class=\"math\">7</span> (فردي).",
-    "steps": [
-     "<span class=\"math\">(−1) × (−1) × (−1) × (−1) × (−1) × (−1) × (−1)</span>",
-     "عدد العوامل السالبة <span class=\"math\">7</span> (فردي) ← الجداء سالب",
-     "<span class=\"math\">1 × 1 × ... × 1 = 1</span>",
-     "النتيجة: <span class=\"math\">−1</span>"
-    ],
-    "rubric": [
-     {
-      "step": "الإشارة السالبة",
-      "mark": "0,25"
-     },
-     {
-      "step": "القيمة <span class=\"math\">1</span>",
-      "mark": "0,25"
-     }
-    ],
-    "pts": 0.5,
-    "partialMsg": "كل العوامل <span class=\"math\">(−1)</span>: القيمة <span class=\"math\">1</span> والإشارة حسب عدد العوامل.",
-    "partialZero": true,
-    "qId": "13-2"
-   }
-  ]
- },
- {
-  "id": 14,
-  "pts": 1,
-  "title": "التمرين 14: قاعدة الإشارات في القسمة (المورد 3: حاصل قسمة عددين نسبيين)",
+  "title": "التمرين 06: قاعدة الإشارات في القسمة (المورد 1: العمليات على الأعداد النسبية (الضرب والقسمة))",
   "context": "احسب كل حاصل قسمة.",
   "questions": [
    {
@@ -1514,7 +973,7 @@
     "pts": 0.5,
     "partialMsg": "إشارة الناتج خاطئة.",
     "partialZero": true,
-    "qId": "14-1"
+    "qId": "6-1"
    },
    {
     "text": "2) <span class=\"math\">(−72) ÷ (−9)</span>",
@@ -1545,86 +1004,14 @@
     "pts": 0.5,
     "partialMsg": "إشارة الناتج خاطئة.",
     "partialZero": true,
-    "qId": "14-2"
+    "qId": "6-2"
    }
   ]
  },
  {
-  "id": 15,
+  "id": 7,
   "pts": 1,
-  "title": "التمرين 15: قسمة أعداد نسبية عشرية (المورد 3: حاصل قسمة عددين نسبيين)",
-  "context": "احسب كل حاصل قسمة.",
-  "questions": [
-   {
-    "text": "1) <span class=\"math\">(+4,5) ÷ (−1,5)</span>",
-    "exact": [
-     "-3"
-    ],
-    "partial": [
-     "3"
-    ],
-    "h1": "حاصل قسمة عددين لهما نفس الإشارة موجب، ومختلفين في الإشارة سالب.",
-    "h2": "الإشارة سالبة؛ كم مرة يوجد <span class=\"math\">1,5</span> في <span class=\"math\">4,5</span>؟",
-    "steps": [
-     "<span class=\"math\">(+4,5) ÷ (−1,5)</span>",
-     "مختلفان في الإشارة: حاصل القسمة سالب",
-     "<span class=\"math\">4,5 ÷ 1,5 = 3</span>",
-     "النتيجة: <span class=\"math\">(+4,5) ÷ (−1,5) = −3</span>"
-    ],
-    "rubric": [
-     {
-      "step": "تعيين الإشارة",
-      "mark": "0,25"
-     },
-     {
-      "step": "القيمة",
-      "mark": "0,25"
-     }
-    ],
-    "pts": 0.5,
-    "partialMsg": "إشارة الناتج خاطئة.",
-    "partialZero": true,
-    "qId": "15-1"
-   },
-   {
-    "text": "2) <span class=\"math\">(−0,8) ÷ (−0,2)</span>",
-    "exact": [
-     "4"
-    ],
-    "partial": [
-     "-4",
-     "0,4",
-     "-0,4"
-    ],
-    "h1": "حاصل قسمة عددين لهما نفس الإشارة موجب، ومختلفين في الإشارة سالب.",
-    "h2": "الإشارة موجبة، و<span class=\"math\">0,8 ÷ 0,2 = 8 ÷ 2</span>.",
-    "steps": [
-     "<span class=\"math\">(−0,8) ÷ (−0,2)</span>",
-     "نفس الإشارة: حاصل القسمة موجب",
-     "<span class=\"math\">0,8 ÷ 0,2 = 8 ÷ 2 = 4</span>",
-     "النتيجة: <span class=\"math\">(−0,8) ÷ (−0,2) = 4</span>"
-    ],
-    "rubric": [
-     {
-      "step": "تعيين الإشارة",
-      "mark": "0,25"
-     },
-     {
-      "step": "القيمة",
-      "mark": "0,25"
-     }
-    ],
-    "pts": 0.5,
-    "partialMsg": "إشارة الناتج خاطئة.",
-    "partialZero": true,
-    "qId": "15-2"
-   }
-  ]
- },
- {
-  "id": 16,
-  "pts": 1,
-  "title": "التمرين 16: الكتابة الكسرية لحاصل القسمة (المورد 3: حاصل قسمة عددين نسبيين)",
+  "title": "التمرين 07: الكتابة الكسرية لحاصل القسمة (المورد 1: العمليات على الأعداد النسبية (الضرب والقسمة))",
   "context": "الكتابة <span class=\"math\">a/b</span> تعني <span class=\"math\">a ÷ b</span> (مع <span class=\"math\">b ≠ 0</span>).",
   "questions": [
    {
@@ -1638,7 +1025,8 @@
     "h1": "حاصل قسمة عددين لهما نفس الإشارة موجب، ومختلفين في الإشارة سالب.",
     "h2": "<span class=\"math\">35 ÷ 7 = 5</span>.",
     "steps": [
-     "<span class=\"math\">(−35)/(+7) = (−35) ÷ (+7)</span>",
+     "<span class=\"math\">(−35)/(+7)</span>",
+     "<span class=\"math\">= (−35) ÷ (+7)</span>",
      "مختلفان في الإشارة: الناتج سالب",
      "<span class=\"math\">35 ÷ 7 = 5</span>",
      "النتيجة: <span class=\"math\">−5</span>"
@@ -1656,7 +1044,7 @@
     "pts": 0.5,
     "partialMsg": "إشارة الناتج خاطئة.",
     "partialZero": true,
-    "qId": "16-1"
+    "qId": "7-1"
    },
    {
     "text": "2) أعط الكتابة العشرية لـ <span class=\"math\">(−18)/(−4)</span>.",
@@ -1671,7 +1059,8 @@
     "h1": "حاصل قسمة عددين لهما نفس الإشارة موجب، ومختلفين في الإشارة سالب.",
     "h2": "الإشارة موجبة؛ احسب <span class=\"math\">18 ÷ 4</span> بالقسمة العشرية.",
     "steps": [
-     "<span class=\"math\">(−18)/(−4) = (−18) ÷ (−4)</span>",
+     "<span class=\"math\">(−18)/(−4)</span>",
+     "<span class=\"math\">= (−18) ÷ (−4)</span>",
      "نفس الإشارة: الناتج موجب",
      "<span class=\"math\">18 ÷ 4 = 4,5</span>",
      "النتيجة: <span class=\"math\">4,5</span>"
@@ -1689,14 +1078,14 @@
     "pts": 0.5,
     "partialMsg": "المطلوب الكتابة العشرية بالإشارة الصحيحة.",
     "partialZero": true,
-    "qId": "16-2"
+    "qId": "7-2"
    }
   ]
  },
  {
-  "id": 17,
+  "id": 8,
   "pts": 1,
-  "title": "التمرين 17: المقسوم أو القاسم المجهول (المورد 3: حاصل قسمة عددين نسبيين)",
+  "title": "التمرين 08: المقسوم أو القاسم المجهول (المورد 1: العمليات على الأعداد النسبية (الضرب والقسمة))",
   "context": "أكمل بالعدد النسبي المناسب.",
   "questions": [
    {
@@ -1728,7 +1117,7 @@
     "pts": 0.5,
     "partialMsg": "<span class=\"math\">(−84) ÷ 7</span> سالب وليس <span class=\"math\">+12</span>.",
     "partialZero": true,
-    "qId": "17-1"
+    "qId": "8-1"
    },
    {
     "text": "2) <span class=\"math\">... ÷ (−5) = −9</span>",
@@ -1760,6 +1149,637 @@
     "pts": 0.5,
     "partialMsg": "<span class=\"math\">(−45) ÷ (−5)</span> موجب وليس <span class=\"math\">−9</span>.",
     "partialZero": true,
+    "qId": "8-2"
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "pts": 1,
+  "title": "التمرين 09: جمع وطرح كسرين (المورد 2: العمليات على الأعداد الكسرية)",
+  "context": "احسب واكتب النتيجة على شكل كسر غير قابل للاختزال.",
+  "questions": [
+   {
+    "text": "1) <span class=\"math\">2/3 + 3/4</span>",
+    "exact": [
+     "17/12"
+    ],
+    "partial": [
+     "5/7"
+    ],
+    "h1": "وحّد المقامين: المقام المشترك <span class=\"math\">12</span>.",
+    "h2": "<span class=\"math\">2/3 = 8/12</span> و<span class=\"math\">3/4 = 9/12</span>.",
+    "steps": [
+     "<span class=\"math\">2/3 = 8/12</span>",
+     "<span class=\"math\">3/4 = 9/12</span>",
+     "<span class=\"math\">8/12 + 9/12 = 17/12</span>",
+     "النتيجة: <span class=\"math\">17/12</span>"
+    ],
+    "rubric": [
+     {
+      "step": "توحيد المقامين",
+      "mark": "0,25"
+     },
+     {
+      "step": "النتيجة <span class=\"math\">17/12</span>",
+      "mark": "0,25"
+     }
+    ],
+    "pts": 0.5,
+    "partialMsg": "لا نجمع المقامات: نوحدها ثم نجمع البسطين.",
+    "partialZero": true,
+    "qId": "9-1"
+   },
+   {
+    "text": "2) <span class=\"math\">5/6 − 3/8</span>",
+    "exact": [
+     "11/24"
+    ],
+    "partial": [
+     "22/48"
+    ],
+    "h1": "المقام المشترك الأصغر لـ <span class=\"math\">6</span> و<span class=\"math\">8</span> هو <span class=\"math\">24</span>.",
+    "h2": "<span class=\"math\">5/6 = 20/24</span> و<span class=\"math\">3/8 = 9/24</span>.",
+    "steps": [
+     "<span class=\"math\">5/6 = 20/24</span>",
+     "<span class=\"math\">3/8 = 9/24</span>",
+     "<span class=\"math\">20/24 − 9/24 = 11/24</span>",
+     "النتيجة: <span class=\"math\">11/24</span>"
+    ],
+    "rubric": [
+     {
+      "step": "توحيد المقامين",
+      "mark": "0,25"
+     },
+     {
+      "step": "النتيجة <span class=\"math\">11/24</span>",
+      "mark": "0,25"
+     }
+    ],
+    "pts": 0.5,
+    "partialMsg": "النتيجة صحيحة لكن اختزل الكسر إلى أبسط شكل.",
+    "qId": "9-2"
+   }
+  ]
+ },
+ {
+  "id": 10,
+  "pts": 1,
+  "title": "التمرين 10: ضرب كسرين مع الاختزال (المورد 2: العمليات على الأعداد الكسرية)",
+  "context": "احسب واكتب النتيجة على شكل كسر غير قابل للاختزال.",
+  "questions": [
+   {
+    "text": "1) <span class=\"math\">6/35 × 14/9</span>",
+    "exact": [
+     "4/15"
+    ],
+    "partial": [
+     "84/315",
+     "12/45",
+     "28/105"
+    ],
+    "h1": "يمكن الاختزال قبل الضرب: <span class=\"math\">6</span> و<span class=\"math\">9</span> يقبلان القسمة على <span class=\"math\">3</span>، و<span class=\"math\">14</span> و<span class=\"math\">35</span> على <span class=\"math\">7</span>.",
+    "h2": "<span class=\"math\">(2 × 2)/(5 × 3)</span>.",
+    "steps": [
+     "<span class=\"math\">6/35 × 14/9</span>",
+     "<span class=\"math\">= (6 × 14)/(35 × 9)</span>",
+     "<span class=\"math\">= (2×3×2×7)/(5×7×3×3)</span>",
+     "<span class=\"math\">= (2 × 2)/(5 × 3)</span>",
+     "<span class=\"math\">= 4/15</span>",
+     "النتيجة: <span class=\"math\">4/15</span>"
+    ],
+    "rubric": [
+     {
+      "step": "كتابة الجداء <span class=\"math\">(6 × 14)/(35 × 9)</span>",
+      "mark": "0,25"
+     },
+     {
+      "step": "الاختزال <span class=\"math\">4/15</span>",
+      "mark": "0,25"
+     }
+    ],
+    "pts": 0.5,
+    "partialMsg": "النتيجة صحيحة لكن اختزل الكسر إلى أبسط شكل.",
+    "qId": "10-1"
+   },
+   {
+    "text": "2) <span class=\"math\">3/4 × 2/9</span>",
+    "exact": [
+     "1/6"
+    ],
+    "partial": [
+     "6/36",
+     "3/18",
+     "2/12"
+    ],
+    "h1": "اضرب البسطين والمقامين ثم اختزل.",
+    "h2": "<span class=\"math\">6/36</span>: قسّم على <span class=\"math\">6</span>.",
+    "steps": [
+     "<span class=\"math\">3/4 × 2/9</span>",
+     "<span class=\"math\">= (3 × 2)/(4 × 9)</span>",
+     "<span class=\"math\">= 6/36</span>",
+     "<span class=\"math\">= 1/6</span>",
+     "النتيجة: <span class=\"math\">1/6</span>"
+    ],
+    "rubric": [
+     {
+      "step": "<span class=\"math\">6/36</span>",
+      "mark": "0,25"
+     },
+     {
+      "step": "الاختزال <span class=\"math\">1/6</span>",
+      "mark": "0,25"
+     }
+    ],
+    "pts": 0.5,
+    "partialMsg": "النتيجة صحيحة لكن اختزل الكسر إلى أبسط شكل.",
+    "qId": "10-2"
+   }
+  ]
+ },
+ {
+  "id": 11,
+  "pts": 1,
+  "title": "التمرين 11: قسمة كسرين (المورد 2: العمليات على الأعداد الكسرية)",
+  "context": "القسمة على كسر تعني الضرب في مقلوبه. احسب واكتب النتيجة على شكل كسر غير قابل للاختزال.",
+  "questions": [
+   {
+    "text": "1) <span class=\"math\">3/5 ÷ 9/10</span>",
+    "exact": [
+     "2/3"
+    ],
+    "partial": [
+     "30/45",
+     "6/9",
+     "10/15"
+    ],
+    "h1": "مقلوب <span class=\"math\">9/10</span> هو <span class=\"math\">10/9</span>.",
+    "h2": "<span class=\"math\">3/5 × 10/9 = 30/45</span> ثم اختزل.",
+    "steps": [
+     "<span class=\"math\">3/5 ÷ 9/10 = 3/5 × 10/9</span>",
+     "<span class=\"math\">= 30/45</span>",
+     "<span class=\"math\">= 2/3</span>",
+     "النتيجة: <span class=\"math\">2/3</span>"
+    ],
+    "rubric": [
+     {
+      "step": "الضرب في المقلوب",
+      "mark": "0,25"
+     },
+     {
+      "step": "النتيجة <span class=\"math\">2/3</span>",
+      "mark": "0,25"
+     }
+    ],
+    "pts": 0.5,
+    "partialMsg": "النتيجة صحيحة لكن اختزل الكسر إلى أبسط شكل.",
+    "qId": "11-1"
+   },
+   {
+    "text": "2) <span class=\"math\">4 ÷ 2/3</span>",
+    "exact": [
+     "6"
+    ],
+    "partial": [
+     "12/2"
+    ],
+    "h1": "مقلوب <span class=\"math\">2/3</span> هو <span class=\"math\">3/2</span>.",
+    "h2": "<span class=\"math\">4 × 3/2 = 12/2</span>.",
+    "steps": [
+     "<span class=\"math\">4 ÷ 2/3 = 4 × 3/2</span>",
+     "<span class=\"math\">= 12/2</span>",
+     "<span class=\"math\">= 6</span>",
+     "النتيجة: <span class=\"math\">6</span>"
+    ],
+    "rubric": [
+     {
+      "step": "الضرب في المقلوب",
+      "mark": "0,25"
+     },
+     {
+      "step": "النتيجة <span class=\"math\">6</span>",
+      "mark": "0,25"
+     }
+    ],
+    "pts": 0.5,
+    "partialMsg": "اكتب النتيجة في أبسط شكل.",
+    "qId": "11-2"
+   }
+  ]
+ },
+ {
+  "id": 12,
+  "pts": 1,
+  "title": "التمرين 12: سلسلة عمليات على الكسور (المورد 2: العمليات على الأعداد الكسرية)",
+  "context": "احسب مع احترام أولوية العمليات، واكتب النتيجة في أبسط شكل.",
+  "questions": [
+   {
+    "text": "1) <span class=\"math\">A = 1/2 + 3/2 × 5/3</span>",
+    "exact": [
+     "3"
+    ],
+    "partial": [
+     "6/2"
+    ],
+    "h1": "الضرب قبل الجمع.",
+    "h2": "<span class=\"math\">3/2 × 5/3 = 15/6 = 5/2</span> ثم <span class=\"math\">1/2 + 5/2</span>.",
+    "steps": [
+     "<span class=\"math\">3/2 × 5/3 = 15/6 = 5/2</span>",
+     "<span class=\"math\">A = 1/2 + 5/2</span>",
+     "<span class=\"math\">A = 6/2</span>",
+     "<span class=\"math\">A = 3</span>",
+     "النتيجة: <span class=\"math\">A = 3</span>"
+    ],
+    "rubric": [
+     {
+      "step": "الجداء <span class=\"math\">5/2</span>",
+      "mark": "0,25"
+     },
+     {
+      "step": "النتيجة <span class=\"math\">3</span>",
+      "mark": "0,25"
+     }
+    ],
+    "pts": 0.5,
+    "partialMsg": "النتيجة صحيحة لكن اختزل الكسر إلى أبسط شكل.",
+    "qId": "12-1"
+   },
+   {
+    "text": "2) <span class=\"math\">B = (2/3 − 1/6) ÷ 3/4</span>",
+    "exact": [
+     "2/3"
+    ],
+    "partial": [
+     "4/6"
+    ],
+    "h1": "ما بين القوسين أولا.",
+    "h2": "<span class=\"math\">2/3 − 1/6 = 3/6 = 1/2</span>، ثم <span class=\"math\">1/2 × 4/3</span>.",
+    "steps": [
+     "<span class=\"math\">2/3 − 1/6</span>",
+     "<span class=\"math\">= 4/6 − 1/6 = 3/6 = 1/2</span>",
+     "<span class=\"math\">B</span>",
+     "<span class=\"math\">= 1/2 ÷ 3/4 = 1/2 × 4/3</span>",
+     "<span class=\"math\">B = 4/6 = 2/3</span>",
+     "النتيجة: <span class=\"math\">B = 2/3</span>"
+    ],
+    "rubric": [
+     {
+      "step": "القوسان <span class=\"math\">1/2</span>",
+      "mark": "0,25"
+     },
+     {
+      "step": "النتيجة <span class=\"math\">2/3</span>",
+      "mark": "0,25"
+     }
+    ],
+    "pts": 0.5,
+    "partialMsg": "النتيجة صحيحة لكن اختزل الكسر إلى أبسط شكل.",
+    "qId": "12-2"
+   }
+  ]
+ },
+ {
+  "id": 13,
+  "pts": 1,
+  "title": "التمرين 13: قراءة كتاب (المورد 2: العمليات على الأعداد الكسرية)",
+  "context": "عدد صفحات كتاب <span class=\"math\">240</span> صفحة. قرأ منه أنس <span class=\"math\">3/8</span> في الأسبوع الأول.",
+  "questions": [
+   {
+    "text": "1) كم صفحة قرأ أنس؟",
+    "exact": [
+     "90"
+    ],
+    "partial": [],
+    "h1": "<span class=\"math\">3/8</span> من <span class=\"math\">240</span> تعني <span class=\"math\">3/8 × 240</span>.",
+    "h2": "<span class=\"math\">240 ÷ 8 = 30</span>.",
+    "steps": [
+     "<span class=\"math\">3/8 × 240</span>",
+     "<span class=\"math\">240 ÷ 8 = 30</span>",
+     "<span class=\"math\">30 × 3 = 90</span>",
+     "النتيجة: <span class=\"math\">90</span> صفحة"
+    ],
+    "rubric": [
+     {
+      "step": "العملية <span class=\"math\">3/8 × 240</span>",
+      "mark": "0,25"
+     },
+     {
+      "step": "النتيجة <span class=\"math\">90</span>",
+      "mark": "0,25"
+     }
+    ],
+    "pts": 0.5,
+    "qId": "13-1"
+   },
+   {
+    "text": "2) ما الكسر الذي يمثل الصفحات غير المقروءة؟",
+    "exact": [
+     "5/8"
+    ],
+    "partial": [
+     "150/240",
+     "75/120",
+     "15/24"
+    ],
+    "h1": "الكتاب كله <span class=\"math\">8/8</span>.",
+    "h2": "<span class=\"math\">8/8 − 3/8</span>.",
+    "steps": [
+     "<span class=\"math\">1 − 3/8 = 8/8 − 3/8</span>",
+     "<span class=\"math\">= 5/8</span>",
+     "النتيجة: <span class=\"math\">5/8</span>"
+    ],
+    "rubric": [
+     {
+      "step": "<span class=\"math\">1 = 8/8</span>",
+      "mark": "0,25"
+     },
+     {
+      "step": "النتيجة <span class=\"math\">5/8</span>",
+      "mark": "0,25"
+     }
+    ],
+    "pts": 0.5,
+    "partialMsg": "النتيجة صحيحة لكن اختزل الكسر إلى أبسط شكل.",
+    "qId": "13-2"
+   }
+  ]
+ },
+ {
+  "id": 14,
+  "pts": 1,
+  "title": "التمرين 14: ضرب أعداد ناطقة (المورد 3: العمليات على الأعداد الناطقة)",
+  "context": "نطبق قاعدة الإشارات على الكسور. احسب واكتب النتيجة على شكل كسر غير قابل للاختزال.",
+  "questions": [
+   {
+    "text": "1) <span class=\"math\">(−2/3) × (9/4)</span>",
+    "exact": [
+     "-3/2"
+    ],
+    "partial": [
+     "-18/12",
+     "-6/4",
+     "-9/6"
+    ],
+    "h1": "مختلفان في الإشارة: الجداء سالب.",
+    "h2": "<span class=\"math\">2/3 × 9/4 = 18/12</span> ثم اختزل.",
+    "steps": [
+     "مختلفان في الإشارة: الجداء سالب",
+     "<span class=\"math\">2/3 × 9/4 = 18/12 = 3/2</span>",
+     "النتيجة: <span class=\"math\">−3/2</span>"
+    ],
+    "rubric": [
+     {
+      "step": "الإشارة",
+      "mark": "0,25"
+     },
+     {
+      "step": "القيمة <span class=\"math\">3/2</span>",
+      "mark": "0,25"
+     }
+    ],
+    "pts": 0.5,
+    "partialMsg": "النتيجة صحيحة لكن اختزل الكسر إلى أبسط شكل.",
+    "qId": "14-1"
+   },
+   {
+    "text": "2) <span class=\"math\">(−5/6) × (−3/10)</span>",
+    "exact": [
+     "1/4"
+    ],
+    "partial": [
+     "15/60",
+     "3/12",
+     "5/20"
+    ],
+    "h1": "نفس الإشارة: الجداء موجب.",
+    "h2": "<span class=\"math\">5/6 × 3/10 = 15/60</span>.",
+    "steps": [
+     "نفس الإشارة: الجداء موجب",
+     "<span class=\"math\">5/6 × 3/10 = 15/60</span>",
+     "<span class=\"math\">15/60 = 1/4</span>",
+     "النتيجة: <span class=\"math\">1/4</span>"
+    ],
+    "rubric": [
+     {
+      "step": "الإشارة",
+      "mark": "0,25"
+     },
+     {
+      "step": "القيمة <span class=\"math\">1/4</span>",
+      "mark": "0,25"
+     }
+    ],
+    "pts": 0.5,
+    "partialMsg": "النتيجة صحيحة لكن اختزل الكسر إلى أبسط شكل.",
+    "qId": "14-2"
+   }
+  ]
+ },
+ {
+  "id": 15,
+  "pts": 1,
+  "title": "التمرين 15: قسمة أعداد ناطقة (المورد 3: العمليات على الأعداد الناطقة)",
+  "context": "القسمة على عدد ناطق غير معدوم تعني الضرب في مقلوبه.",
+  "questions": [
+   {
+    "text": "1) <span class=\"math\">(−4/7) ÷ (2/21)</span>",
+    "exact": [
+     "-6"
+    ],
+    "partial": [
+     "-84/14",
+     "-42/7",
+     "-12/2"
+    ],
+    "h1": "مقلوب <span class=\"math\">2/21</span> هو <span class=\"math\">21/2</span>، والإشارة سالبة.",
+    "h2": "<span class=\"math\">4/7 × 21/2 = 84/14</span>.",
+    "steps": [
+     "<span class=\"math\">(−4/7) ÷ (2/21)</span>",
+     "<span class=\"math\">= (−4/7) × (21/2)</span>",
+     "الإشارة سالبة",
+     "<span class=\"math\">4/7 × 21/2 = 84/14 = 6</span>",
+     "النتيجة: <span class=\"math\">−6</span>"
+    ],
+    "rubric": [
+     {
+      "step": "الضرب في المقلوب والإشارة",
+      "mark": "0,25"
+     },
+     {
+      "step": "النتيجة <span class=\"math\">−6</span>",
+      "mark": "0,25"
+     }
+    ],
+    "pts": 0.5,
+    "partialMsg": "اكتب النتيجة في أبسط شكل.",
+    "qId": "15-1"
+   },
+   {
+    "text": "2) <span class=\"math\">(−3/5) ÷ (−6)</span>",
+    "exact": [
+     "1/10"
+    ],
+    "partial": [
+     "3/30"
+    ],
+    "h1": "مقلوب <span class=\"math\">−6</span> هو <span class=\"math\">−1/6</span>، والإشارة موجبة.",
+    "h2": "<span class=\"math\">3/5 × 1/6 = 3/30</span>.",
+    "steps": [
+     "<span class=\"math\">(−3/5) ÷ (−6)</span>",
+     "<span class=\"math\">= (−3/5) × (−1/6)</span>",
+     "نفس الإشارة: موجب",
+     "<span class=\"math\">3/5 × 1/6 = 3/30 = 1/10</span>",
+     "النتيجة: <span class=\"math\">1/10</span>"
+    ],
+    "rubric": [
+     {
+      "step": "الضرب في المقلوب والإشارة",
+      "mark": "0,25"
+     },
+     {
+      "step": "النتيجة <span class=\"math\">1/10</span>",
+      "mark": "0,25"
+     }
+    ],
+    "pts": 0.5,
+    "partialMsg": "النتيجة صحيحة لكن اختزل الكسر إلى أبسط شكل.",
+    "qId": "15-2"
+   }
+  ]
+ },
+ {
+  "id": 16,
+  "pts": 1,
+  "title": "التمرين 16: جمع وطرح أعداد ناطقة (المورد 3: العمليات على الأعداد الناطقة)",
+  "context": "احسب واكتب النتيجة على شكل كسر غير قابل للاختزال.",
+  "questions": [
+   {
+    "text": "1) <span class=\"math\">(−3/4) + (5/8)</span>",
+    "exact": [
+     "-1/8"
+    ],
+    "partial": [
+     "1/8",
+     "-11/8"
+    ],
+    "h1": "وحّد المقامين: <span class=\"math\">−3/4 = −6/8</span>.",
+    "h2": "اجمع <span class=\"math\">−6</span> و<span class=\"math\">+5</span> في البسط.",
+    "steps": [
+     "<span class=\"math\">−3/4 = −6/8</span>",
+     "<span class=\"math\">−6/8 + 5/8 = (−6 + 5)/8</span>",
+     "<span class=\"math\">= −1/8</span>",
+     "النتيجة: <span class=\"math\">−1/8</span>"
+    ],
+    "rubric": [
+     {
+      "step": "توحيد المقامين",
+      "mark": "0,25"
+     },
+     {
+      "step": "النتيجة <span class=\"math\">−1/8</span>",
+      "mark": "0,25"
+     }
+    ],
+    "pts": 0.5,
+    "partialMsg": "انتبه إلى إشارة البسط: <span class=\"math\">−6 + 5</span>.",
+    "partialZero": true,
+    "qId": "16-1"
+   },
+   {
+    "text": "2) <span class=\"math\">(−1/2) − (1/3)</span>",
+    "exact": [
+     "-5/6"
+    ],
+    "partial": [
+     "-1/6",
+     "1/6",
+     "5/6"
+    ],
+    "h1": "المقام المشترك <span class=\"math\">6</span>.",
+    "h2": "<span class=\"math\">−3/6 − 2/6</span>.",
+    "steps": [
+     "<span class=\"math\">−1/2 = −3/6</span>",
+     "<span class=\"math\">1/3 = 2/6</span>",
+     "<span class=\"math\">−3/6 − 2/6 = −5/6</span>",
+     "النتيجة: <span class=\"math\">−5/6</span>"
+    ],
+    "rubric": [
+     {
+      "step": "توحيد المقامين",
+      "mark": "0,25"
+     },
+     {
+      "step": "النتيجة <span class=\"math\">−5/6</span>",
+      "mark": "0,25"
+     }
+    ],
+    "pts": 0.5,
+    "partialMsg": "طرح <span class=\"math\">2/6</span> من <span class=\"math\">−3/6</span> يعطي عددا سالبا أصغر.",
+    "partialZero": true,
+    "qId": "16-2"
+   }
+  ]
+ },
+ {
+  "id": 17,
+  "pts": 1,
+  "title": "التمرين 17: كتابات مختلفة لعدد ناطق (المورد 3: العمليات على الأعداد الناطقة)",
+  "context": "أعط الكتابة المطلوبة.",
+  "questions": [
+   {
+    "text": "1) اكتب <span class=\"math\">(−12)/(−18)</span> على شكل كسر غير قابل للاختزال.",
+    "exact": [
+     "2/3"
+    ],
+    "partial": [
+     "12/18",
+     "6/9",
+     "4/6"
+    ],
+    "h1": "نفس الإشارة في البسط والمقام: العدد موجب.",
+    "h2": "اختزل <span class=\"math\">12/18</span> على <span class=\"math\">6</span>.",
+    "steps": [
+     "<span class=\"math\">(−12)/(−18) = 12/18</span>",
+     "<span class=\"math\">12/18 = 2/3</span>",
+     "النتيجة: <span class=\"math\">2/3</span>"
+    ],
+    "rubric": [
+     {
+      "step": "الإشارة الموجبة",
+      "mark": "0,25"
+     },
+     {
+      "step": "الاختزال <span class=\"math\">2/3</span>",
+      "mark": "0,25"
+     }
+    ],
+    "pts": 0.5,
+    "partialMsg": "النتيجة صحيحة لكن اختزل الكسر إلى أبسط شكل.",
+    "qId": "17-1"
+   },
+   {
+    "text": "2) اكتب <span class=\"math\">3/(−4)</span> على شكل كسر مقامه موجب.",
+    "exact": [
+     "-3/4"
+    ],
+    "partial": [
+     "3/4"
+    ],
+    "h1": "الإشارة السالبة تنتقل إلى البسط.",
+    "h2": "<span class=\"math\">a/(−b) = −a/b</span>.",
+    "steps": [
+     "<span class=\"math\">3/(−4) = −3/4</span>",
+     "النتيجة: <span class=\"math\">−3/4</span>"
+    ],
+    "rubric": [
+     {
+      "step": "نقل الإشارة إلى البسط <span class=\"math\">−3/4</span>",
+      "mark": "0,5"
+     }
+    ],
+    "pts": 0.5,
+    "partialMsg": "العدد سالب: لا تحذف الإشارة.",
+    "partialZero": true,
     "qId": "17-2"
    }
   ]
@@ -1767,29 +1787,93 @@
  {
   "id": 18,
   "pts": 1,
-  "title": "التمرين 18: متوسط درجات الحرارة الدنيا (المورد 3: حاصل قسمة عددين نسبيين)",
-  "context": "سُجلت درجات الحرارة الدنيا بالجلفة خلال <span class=\"math\">5</span> أيام من شهر جانفي: <span class=\"math\">−3 ; −1 ; +2 ; −4 ; −4</span> (بالدرجة المئوية).",
+  "title": "التمرين 18: أرض فلاحية بالمدية (المورد 4: تجنيد العمليات المناسبة لحل مشكلات)",
+  "context": "زرع فلاح <span class=\"math\">1/3</span> أرضه قمحا و<span class=\"math\">2/5</span> أرضه شعيرا، وبقي الجزء الآخر بورا.",
   "questions": [
    {
-    "text": "1) احسب مجموع هذه الدرجات.",
+    "text": "1) ما الكسر الذي يمثل الجزء المزروع؟",
+    "exact": [
+     "11/15"
+    ],
+    "partial": [
+     "3/8"
+    ],
+    "h1": "الجزء المزروع = <span class=\"math\">1/3 + 2/5</span>.",
+    "h2": "المقام المشترك <span class=\"math\">15</span>: <span class=\"math\">5/15 + 6/15</span>.",
+    "steps": [
+     "<span class=\"math\">1/3 = 5/15</span>",
+     "<span class=\"math\">2/5 = 6/15</span>",
+     "<span class=\"math\">5/15 + 6/15 = 11/15</span>",
+     "النتيجة: <span class=\"math\">11/15</span>"
+    ],
+    "rubric": [
+     {
+      "step": "توحيد المقامين",
+      "mark": "0,25"
+     },
+     {
+      "step": "النتيجة <span class=\"math\">11/15</span>",
+      "mark": "0,25"
+     }
+    ],
+    "pts": 0.5,
+    "partialMsg": "لا نجمع المقامات.",
+    "partialZero": true,
+    "qId": "18-1"
+   },
+   {
+    "text": "2) ما الكسر الذي يمثل الجزء البور؟",
+    "exact": [
+     "4/15"
+    ],
+    "partial": [],
+    "h1": "الأرض كلها تمثل <span class=\"math\">1 = 15/15</span>.",
+    "h2": "<span class=\"math\">15/15 − 11/15</span>.",
+    "steps": [
+     "<span class=\"math\">1 = 15/15</span>",
+     "<span class=\"math\">15/15 − 11/15 = 4/15</span>",
+     "النتيجة: <span class=\"math\">4/15</span>"
+    ],
+    "rubric": [
+     {
+      "step": "<span class=\"math\">1 = 15/15</span>",
+      "mark": "0,25"
+     },
+     {
+      "step": "النتيجة <span class=\"math\">4/15</span>",
+      "mark": "0,25"
+     }
+    ],
+    "pts": 0.5,
+    "qId": "18-2"
+   }
+  ]
+ },
+ {
+  "id": 19,
+  "pts": 1,
+  "title": "التمرين 19: انخفاض درجة الحرارة (المورد 4: تجنيد العمليات المناسبة لحل مشكلات)",
+  "context": "في ليلة شتوية بباتنة، كانت درجة الحرارة <span class=\"math\">+3 °C</span>، ثم انخفضت بـ <span class=\"math\">2 °C</span> كل ساعة طيلة <span class=\"math\">5</span> ساعات. نعبر عن كل انخفاض بالعدد <span class=\"math\">(−2)</span>.",
+  "questions": [
+   {
+    "text": "1) ما التغير الكلي لدرجة الحرارة خلال <span class=\"math\">5</span> ساعات؟",
     "exact": [
      "-10"
     ],
     "partial": [
-     "10",
-     "-14",
-     "14"
+     "10"
     ],
-    "h1": "اجمع الأعداد السالبة معا، ثم أضف <span class=\"math\">(+2)</span>.",
-    "h2": "<span class=\"math\">(−3) + (−1) + (−4) + (−4) = −12</span>.",
+    "h1": "التغير الكلي = عدد الساعات × تغير الساعة الواحدة.",
+    "h2": "احسب <span class=\"math\">5 × (−2)</span>.",
     "steps": [
-     "<span class=\"math\">(−3) + (−1) + (−4) + (−4) = −12</span>",
-     "<span class=\"math\">(−12) + (+2) = −10</span>",
-     "النتيجة: <span class=\"math\">−10</span>"
+     "<span class=\"math\">5 × (−2)</span>",
+     "مختلفان في الإشارة: الجداء سالب",
+     "<span class=\"math\">5 × 2 = 10</span>",
+     "النتيجة: <span class=\"math\">−10 °C</span>"
     ],
     "rubric": [
      {
-      "step": "مجموع السوالب <span class=\"math\">−12</span>",
+      "step": "العملية <span class=\"math\">5 × (−2)</span>",
       "mark": "0,25"
      },
      {
@@ -1798,113 +1882,40 @@
      }
     ],
     "pts": 0.5,
-    "partialMsg": "راجع جمع الأعداد النسبية: <span class=\"math\">(+2)</span> تنقص من القيمة السالبة.",
-    "partialZero": true,
-    "qId": "18-1"
-   },
-   {
-    "text": "2) احسب متوسط درجة الحرارة الدنيا.",
-    "exact": [
-     "-2"
-    ],
-    "partial": [
-     "2"
-    ],
-    "h1": "المتوسط = المجموع ÷ عدد الأيام.",
-    "h2": "احسب <span class=\"math\">(−10) ÷ 5</span>.",
-    "steps": [
-     "<span class=\"math\">(−10) ÷ (+5)</span>",
-     "مختلفان في الإشارة: الناتج سالب",
-     "<span class=\"math\">10 ÷ 5 = 2</span>",
-     "النتيجة: <span class=\"math\">−2 °C</span>"
-    ],
-    "rubric": [
-     {
-      "step": "العملية <span class=\"math\">(−10) ÷ 5</span>",
-      "mark": "0,25"
-     },
-     {
-      "step": "النتيجة <span class=\"math\">−2 °C</span>",
-      "mark": "0,25"
-     }
-    ],
-    "pts": 0.5,
-    "partialMsg": "إشارة الناتج خاطئة.",
-    "partialZero": true,
-    "qId": "18-2"
-   }
-  ]
- },
- {
-  "id": 19,
-  "pts": 1,
-  "title": "التمرين 19: سلسلة عمليات على الأعداد النسبية (توظيف الموارد 1 و2 و3)",
-  "context": "احسب مع احترام أولوية العمليات.",
-  "questions": [
-   {
-    "text": "1) <span class=\"math\">A = (−3) × (+4) + (−20) ÷ (−5)</span>",
-    "exact": [
-     "-8"
-    ],
-    "partial": [
-     "-16",
-     "16",
-     "8"
-    ],
-    "h1": "الضرب والقسمة قبل الجمع.",
-    "h2": "<span class=\"math\">(−3) × (+4) = −12</span> و<span class=\"math\">(−20) ÷ (−5) = +4</span>.",
-    "steps": [
-     "<span class=\"math\">A = (−3) × (+4) + (−20) ÷ (−5)</span>",
-     "<span class=\"math\">A = (−12) + (+4)</span>",
-     "<span class=\"math\">A = −8</span>",
-     "النتيجة: <span class=\"math\">A = −8</span>"
-    ],
-    "rubric": [
-     {
-      "step": "<span class=\"math\">−12</span> و<span class=\"math\">+4</span>",
-      "mark": "0,25"
-     },
-     {
-      "step": "النتيجة <span class=\"math\">−8</span>",
-      "mark": "0,25"
-     }
-    ],
-    "pts": 0.5,
-    "partialMsg": "راجع إشارة كل حد ثم الجمع.",
+    "partialMsg": "الحرارة انخفضت: التغير سالب.",
     "partialZero": true,
     "qId": "19-1"
    },
    {
-    "text": "2) <span class=\"math\">B = (−2) × (−6 + 1)</span>",
+    "text": "2) ما درجة الحرارة بعد <span class=\"math\">5</span> ساعات؟",
     "exact": [
-     "10"
+     "-7"
     ],
     "partial": [
-     "-10",
-     "14",
-     "-14",
-     "13"
+     "7",
+     "13",
+     "-13"
     ],
-    "h1": "ما بين القوسين أولا.",
-    "h2": "<span class=\"math\">(−6) + (+1) = −5</span> ثم <span class=\"math\">(−2) × (−5)</span>.",
+    "h1": "درجة الحرارة الجديدة = درجة البداية + التغير الكلي.",
+    "h2": "احسب <span class=\"math\">(+3) + (−10)</span>.",
     "steps": [
-     "<span class=\"math\">B = (−2) × (−6 + 1)</span>",
-     "<span class=\"math\">B = (−2) × (−5)</span>",
-     "<span class=\"math\">B = 10</span>",
-     "النتيجة: <span class=\"math\">B = 10</span>"
+     "<span class=\"math\">(+3) + (−10)</span>",
+     "<span class=\"math\">= −(10 − 3)</span>",
+     "<span class=\"math\">= −7</span>",
+     "النتيجة: <span class=\"math\">−7 °C</span>"
     ],
     "rubric": [
      {
-      "step": "<span class=\"math\">−6 + 1 = −5</span>",
+      "step": "العملية <span class=\"math\">(+3) + (−10)</span>",
       "mark": "0,25"
      },
      {
-      "step": "النتيجة <span class=\"math\">10</span>",
+      "step": "النتيجة <span class=\"math\">−7 °C</span>",
       "mark": "0,25"
      }
     ],
     "pts": 0.5,
-    "partialMsg": "احسب ما بين القوسين أولا، ثم طبق قاعدة الإشارات.",
+    "partialMsg": "اجمع <span class=\"math\">(+3)</span> مع التغير <span class=\"math\">(−10)</span> مع الانتباه للإشارة.",
     "partialZero": true,
     "qId": "19-2"
    }
@@ -1913,7 +1924,7 @@
  {
   "id": 20,
   "pts": 1,
-  "title": "التمرين 20: رصيد حساب تاجر (توظيف الموارد 1 و2 و3)",
+  "title": "التمرين 20: رصيد حساب تاجر (المورد 4: تجنيد العمليات المناسبة لحل مشكلات)",
   "context": "رصيد الحساب البريدي لتاجر بالجزائر العاصمة <span class=\"math\">+8000 DA</span>. سحب منه <span class=\"math\">4</span> مرات مبلغ <span class=\"math\">2500 DA</span> في كل مرة. نعبر عن كل سحب بالعدد <span class=\"math\">(−2500)</span>.",
   "questions": [
    {
@@ -2078,8 +2089,8 @@
             s = s.replace(/^[a-zA-Z]\s*=/i, '');
             s = s.replace(/،/g, ',').replace(/\./g, ',');
             s = s.replace(/\*/g, '×').replace(/(\d)[xX](?=\d)/g, '$1×').replace(/[−–]/g, '-');
-            s = s.replace(/(da|دج|دينار|أوراق|ورقة|عشرة|عشرات|وحدة|متر|درجة|°c|c°|°|cm²|m²|m2|cm|m|kg)$/i, '');
-            s = s.replace(/^\((.*)\)$/, '$1').replace(/^\+(?=\d)/, '');
+            s = s.replace(/(da|دج|دينار|أوراق|ورقة|عشرة|عشرات|وحدة|متر|درجة|°c|c°|°|cm²|m²|m2|cm|m|kg|لتر|l)$/i, '');
+            s = s.replace(/-\((\d+\/\d+)\)/g, '-$1').replace(/\((-?\d+(?:,\d+)?)\)/g, '$1').replace(/^\((.*)\)$/, '$1').replace(/^\+(?=\d)/, '');
             s = s.replace(/(\d),(\d*?)0+(?=$|[^\d])/g, (m, a, b) => b ? a + ',' + b : a);
             return s.toLowerCase();
         }
